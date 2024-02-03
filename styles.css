@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    background-color: #fff;
     margin: 0;
     padding: 0;
 }
@@ -9,26 +9,27 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px;
+    padding: 10px;
 }
 
 .panel-primary {
-    border-color: #337ab7;
+    border-color: #9e04c4;
 }
 
 .panel-heading {
-    background-color: #337ab7;
+    background-color: #9373ec;
     color: #fff;
     text-align: center;
-    padding: 15px;
+    padding: 5px;
+    font-size: 7px;
 }
 
 .panel-body {
-    padding: 20px;
+    padding: 10px;
 }
 
 .form-group {
-    margin-bottom: 20px;
+    margin-bottom: 13px;
 }
 
 label {
@@ -39,7 +40,7 @@ input[type="text"],
 input[type="password"],
 select {
     width: 100%;
-    padding: 10px;
+    padding: 7px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
@@ -47,14 +48,14 @@ select {
 
 input[type="number"] {
     width: 100%;
-    padding: 10px;
+    padding: 7px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
 }
 
 .btn-primary {
-    background-color: #337ab7;
+    background-color: #9e04c4;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -73,14 +74,19 @@ input[type="number"] {
 
 .nav-links li {
     display: inline-block;
-    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .nav-links li a {
     text-decoration: none;
-    color: #337ab7;
+    color: #2b022d;
 }
 
 .nav-links li a:hover {
     text-decoration: underline;
+}
+
+.image-container {
+    height: 100%;
+    margin-top: -100px; /* Adjust the negative margin to move the image up */
 }
