@@ -1,0 +1,200 @@
+.contact,
+.contact * {
+  box-sizing: border-box;
+}
+.contact {
+  background-image: linear-gradient(210deg, #eacff8 60%,	#f1ccf0 40%);
+  background-size: cover;
+  height: 824px;
+  position: relative;
+  overflow: hidden;
+}
+.outer-contact {
+  background: #d4c2f7;
+  border-radius: 34px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  position: absolute;
+  right: 57.92%;
+  left: 11.46%;
+  width: 30.63%;
+  bottom: 10.07%;
+  top: 10.56%;
+  height: 79.37%;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.undraw-mobile-login-ikmv {
+  height: auto;
+  position: absolute;
+  right: 13.54%;
+  left: 48.96%;
+  width: 37.5%;
+  bottom: 16.47%;
+  top: 24.51%;
+  height: 59.02%;
+  overflow: visible;
+}
+.contact-us {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 600;
+  position: absolute;
+  right: 64.44%;
+  left: 23.61%;
+  width: 11.94%;
+  bottom: 82.89%;
+  top: 14.32%;
+  height: 2.79%;
+}
+.nav {
+  position: absolute;
+  inset: 0;
+}
+.outer-nav {
+  position: absolute;
+  right: 10.56%;
+  left: 10.56%;
+  width: 78.89%;
+  bottom: 90.9%;
+  top: 2.31%;
+  height: 6.8%;
+}
+.group {
+  width: 280.73px;
+  height: 22.4px;
+  position: static;
+}
+.home {
+  color: var(--colour-main-blue-500, #505f98);
+  text-align: left;
+  font-family: var(--regular-14-font-family, "Roboto-Regular", sans-serif);
+  font-size: var(--regular-14-font-size, 14px);
+  line-height: var(--regular-14-line-height, 24px);
+  font-weight: var(--regular-14-font-weight, 400);
+  position: absolute;
+  right: 80.6%;
+  left: 16.74%;
+  width: 2.66%;
+  bottom: 92.91%;
+  top: 4.37%;
+  height: 2.72%;
+}
+.about {
+  color: var(--colour-main-blue-500, #505f98);
+  text-align: left;
+  font-family: var(--regular-14-font-family, "Roboto-Regular", sans-serif);
+  font-size: var(--regular-14-font-size, 14px);
+  line-height: var(--regular-14-line-height, 24px);
+  font-weight: var(--regular-14-font-weight, 400);
+  position: absolute;
+  right: 72.32%;
+  left: 23.61%;
+  width: 4.07%;
+  bottom: 92.91%;
+  top: 4.37%;
+  height: 2.72%;
+}
+.contact2 {
+  color: var(--colour-main-blue-500, #505f98);
+  text-align: left;
+  font-family: var(--regular-14-font-family, "Roboto-Regular", sans-serif);
+  font-size: var(--regular-14-font-size, 14px);
+  line-height: var(--regular-14-line-height, 24px);
+  font-weight: var(--regular-14-font-weight, 400);
+  position: absolute;
+  right: 63.77%;
+  left: 30.48%;
+  width: 5.75%;
+  bottom: 92.91%;
+  top: 4.37%;
+  height: 2.72%;
+}
+.email {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 600;
+  position: absolute;
+  right: 78.68%;
+  left: 13.12%;
+  width: 8.19%;
+  bottom: 46.6%;
+  top: 50%;
+  height: 3.4%;
+}
+.phone-dialog {
+  border-radius: 0px;
+  height: auto;
+  position: absolute;
+  right: 60.07%;
+  left: 12.22%;
+  width: 27.71%;
+  bottom: 53.03%;
+  top: 30.95%;
+  height: 16.02%;
+  overflow: visible;
+}
+.phone {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 600;
+  position: absolute;
+  right: 84.1%;
+  left: 12.92%;
+  width: 2.99%;
+  bottom: 70.51%;
+  top: 27.31%;
+  height: 2.18%;
+}
+.email-dialog {
+  border-radius: 0px;
+  height: auto;
+  position: absolute;
+  right: 59.72%;
+  left: 12.57%;
+  width: 27.71%;
+  bottom: 29.37%;
+  top: 54.61%;
+  height: 16.02%;
+  overflow: visible;
+}
+.xxx-xxx-xxxx {
+  color: #000000;
+  text-align: left;
+  font-family: var(--regular-14-font-family, "Roboto-Regular", sans-serif);
+  font-size: var(--regular-14-font-size, 14px);
+  line-height: var(--regular-14-line-height, 24px);
+  font-weight: var(--regular-14-font-weight, 400);
+  position: absolute;
+  right: 63.19%;
+  left: 14.58%;
+  width: 22.22%;
+  bottom: 63.11%;
+  top: 33.98%;
+  height: 2.91%;
+}
+
+.dev-mingle-gmail-com {
+  color: #000000;
+  text-align: left;
+  font-family: var(--regular-14-font-family, "Roboto-Regular", sans-serif);
+  font-size: var(--regular-14-font-size, 14px);
+  line-height: var(--regular-14-line-height, 24px);
+  font-weight: var(--regular-14-font-weight, 400);
+  position: absolute;
+  right: 73.89%;
+  left: 14.31%;
+  width: 11.81%;
+  bottom: 40.66%;
+  top: 56.92%;
+  height: 2.43%;
+}
