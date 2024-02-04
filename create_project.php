@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create Project Post</title>
-    <link rel="stylesheet" type="text/css" href="/home_user.css">
+    <link rel="stylesheet" type="text/css" href="/create_project.css">
 </head>
 <body>
 <header>
@@ -20,11 +20,11 @@
 
 <div class="container">
     <div class="user-info">
+        <h2 style="color: #5e3b6d">User Profile Information</h2> <!-- New heading added -->
         <?php include 'user_info.php'; ?>
     </div>
 
     <div class="project-form">
-    <h2>Welcome, <?php echo $user['first_name']; ?>!</h2> <!-- Add a welcome message here -->
     <h2>Create a New Project</h2>
     <form action="process_project.php" method="POST">
         <label for="project_name">Project Name:</label>
