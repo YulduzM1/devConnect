@@ -11,7 +11,7 @@
 <header>
     <nav>
         <ul class="nav-links">
-            <li><a href="all_users.html">Users</a></li>
+            <li><a href="all_users.php">Users</a></li>
             <li><a href="all_projects.html">Projects</a></li>
             <li><a href="devSpecial.html">DevSpecial</a></li>
             <li><a href="blog.html">Blog</a></li>
