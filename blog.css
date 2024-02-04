@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2b022d;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.blog-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.blog {
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.blog img {
+    width: 300px; 
+    height: auto; 
+}
+
+
+.blog-content {
+    padding: 20px;
+}
+
+.blog-content h2 {
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+.blog-content p {
+    color: #555;
+}
+
+.blog-content a {
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    color: #2b022d;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.additional-content {
+    display: none;
+}
+
+.additional-content.show {
+    display: block;
+}

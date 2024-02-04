@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevConnect Blog</title>
+    <link rel="stylesheet" href="blog.css">
+</head>
+<body>
+    <header>
+        <h1>DevConnect Blog</h1>
+    </header>
+    <div class="blog-container">
+        <div class="blog">
+            <img src="/assets/blog_image1.jpeg" alt="Blog Image 1">
+            <div class="blog-content">
+                <h2>Empowering Women Through Tech</h2>
+                <p>Discover how technology is being used to empower women around the world. From coding bootcamps to mentorship programs, learn how women are breaking barriers and making their mark in the tech industry.</p>
+                <a href="#" class="read-more-link">Read More</a>
+                <div class="additional-content">
+                    <p>This section contains additional content related to empowering women through technology. It may include statistics, success stories, and initiatives aimed at promoting gender equality in the tech sector.</p>
+                </div>
+            </div>            
+        </div>
+        <div class="blog">
+            <img src="/assets/blog_image2.jpg" alt="Blog Image 2">
+            <div class="blog-content">
+                <h2>From Idea to Impact: The DevConnect Story</h2>
+                <p>Explore the journey of DevConnect from its humble beginnings to its profound impact on the tech community. Learn how a simple idea evolved into a thriving platform that connects developers, fosters collaboration, and drives innovation.</p>
+                <a href="#" class="read-more-link">Read More</a>
+                <div class="additional-content">
+                    <p>This section provides further insights into the story behind DevConnect, including its founders, key milestones, and the impact it has had on the developer community. It may also include testimonials from users and partners.</p>
+                </div>
+            </div>            
+        </div>
+        <div class="blog">
+            <img src="/assets/blog_image3.jpg" alt="Blog Image 3">
+            <div class="blog-content">
+                <h2>Coding for a Cause</h2>
+                <p>Discover how DevConnect users are using their coding skills to contribute to social causes and make a positive impact on the world. Whether it's building applications to support underprivileged communities or developing software for non-profit organizations, these stories highlight the power of coding in driving meaningful change.</p>
+                <a href="#" class="read-more-link">Read More</a>
+                <div class="additional-content">
+                    <p>This section delves deeper into the role of coding in addressing social issues, featuring examples of projects developed by DevConnect users to tackle specific challenges such as poverty, education, healthcare, and environmental sustainability.</p>
+                </div>
+            </div>
+        </div>
+        <div class="blog">
+            <img src="/assets/blog_image4.jpg" alt="Blog Image 4">
+            <div class="blog-content">
+                <h2>Innovation in Education</h2>
+                <p>Explore stories of educators using DevConnect to bring innovation to the classroom and enhance the learning experience for students. From creating interactive learning platforms to developing educational games and simulations, these educators are leveraging technology to revolutionize traditional teaching methods and inspire the next generation of learners.</p>
+                <a href="#" class="read-more-link">Read More</a>
+                <div class="additional-content">
+                    <p>This section showcases examples of how educators are integrating technology into their teaching practices, including case studies, best practices, and insights into the impact of technology on student engagement and learning outcomes.</p>
+                </div>
+            </div>
+        </div>
+        <div class="blog">
+            <img src="/assets/blog_image5.png" alt="Blog Image 5">
+            <div class="blog-content">
+                <h2>Coding Adventures: A DevConnect Journey</h2>
+                <p>Follow the coding adventures of DevConnect users as they share their experiences, challenges, and triumphs in the world of programming. From tackling complex coding projects to participating in hackathons and coding competitions, these stories offer insights into the diverse and dynamic journey of software development.</p>
+                <a href="#" class="read-more-link">Read More</a>
+                <div class="additional-content">
+                    <p>This section provides a glimpse into the exciting world of software development, featuring personal accounts, project highlights, and behind-the-scenes stories from DevConnect users. It offers readers a deeper understanding of the coding journey and the skills and experiences gained along the way.</p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <script>
+// JavaScript to toggle additional content when "Read More" is clicked
+const readMoreLinks = document.querySelectorAll('.read-more-link');
+
+readMoreLinks.forEach(link => {
+    link.addEventListener('click', function(event) {
+        event.preventDefault();
+        const content = this.nextElementSibling;
+        content.classList.toggle('show');
+        this.textContent = content.classList.contains('show') ? 'Read Less' : 'Read More';
+    });
+});
+
+    </script>
+</body>
+</html>
