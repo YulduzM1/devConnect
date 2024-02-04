@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - DevConnect</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="login.css">
 </head>
 <body>
     <header>
@@ -19,16 +19,32 @@
     </header>
 
     <section id="login">
-        <div class="login-form">
-            <h2>Login</h2>
-            <form action="login.php" method="POST">
-                <input type="email" name="email" placeholder="Email" required>
-                <input type="password" name="password" placeholder="Password" required>
-                <button type="submit">Login</button>
-            </form>
-            <p>Don't have an account? <a href="register.html">Register here</a></p>
+        <div class="login-intro">
+            <h1>Welcome to DevConnect</h1>
+            <p>Join our vibrant community of passionate coders!</p>
+            <p>Collaborate, learn, and build amazing projects together.</p>
+            <p>Connect with like-minded developers from around the world.</p>
+            <p>Get inspired, share your knowledge, and make lasting connections.</p>
+        </div>
+        <div class="login-container">
+            <div class="login-content">
+                <div class="login-form">
+                    <h2>Login</h2>
+                    <form id="loginForm" action="login.php" method="POST">
+                        <input type="email" id="email" name="email" placeholder="Email" required>
+                        <input type="password" id="password" name="password" placeholder="Password" required>
+                        <button type="submit">Login</button>
+                    </form>
+                    <p>Don't have an account? <a href="register.html">Register here</a></p>
+                </div>
+            </div>
+            <div class="login-image">
+                <img src="https://www.shakebugs.com/wp-content/uploads/2022/08/Shake-naslovne-slike-9-1.png" alt="Login Image" style="max-width: 70%; height: auto;">
+            </div>
         </div>
     </section>
+    
+    
 
     <footer id="footer">
         <p>&copy; 2024 TeamMate Finder. All rights reserved.</p>
