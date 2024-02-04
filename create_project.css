@@ -83,3 +83,31 @@ header {
 .project-form input[type="submit"]:focus {
     outline: none;
 }
+.profile-icon {
+    width: 115px; /* Adjust the width and height as needed */
+    height: 100px;
+    margin-top: 10px; /* Add some spacing between the icon and user info */
+    margin-left: 5px;
+}
+
+
+/* Footer styles */
+#footer {
+    background-color: #2b022d;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#footer p {
+    margin: 0;
+}
+
+#footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    text-decoration: underline;
+}

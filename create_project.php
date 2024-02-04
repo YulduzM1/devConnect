@@ -13,7 +13,7 @@
             <li><a href="home_user.php">Main Dashboard</a></li>
             <li><a href="all_users.php">All Users</a></li>
             <li><a href="my_friends.php">My Friends</a></li>
-            <li><a href="blog.php">Blog</a></li>
+            <li><a href="blog.html">Blog</a></li>
             <li><a href="login.html">Logout</a></li>
         </ul>
     </nav>
@@ -23,6 +23,7 @@
 <div class="container">
     <div class="user-info">
         <h2 style="color: #5e3b6d">User Profile Information</h2> <!-- New heading added -->
+        <img src="/assets/profile1.png" alt="Profile Icon" class="profile-icon">
         <?php include 'user_info.php'; ?>
     </div>
 
@@ -50,4 +51,7 @@
 
 </div>
 </body>
+    <footer id="footer">
+        <p>&copy; 2024 DevConnect. All rights reserved.</p>
+    </footer>
 </html>

@@ -41,6 +41,13 @@ header {
     width: 30%;
     padding-right: 20px;
 }
+.profile-icon {
+    width: 115px; /* Adjust the width and height as needed */
+    height: 100px;
+    margin-top: 10px; /* Add some spacing between the icon and user info */
+    margin-left: 5px;
+}
+
 
 .project-listings {
     width: 70%;
@@ -54,6 +61,8 @@ header {
     padding: 20px;
     border-radius: 5px;
     background-color: #e5d8f2;
+    height: 600px;
+    font-size: 14px;
 }
 
 .project img {
@@ -62,7 +71,7 @@ header {
 }
 
 button {
-    background-color: #45274a; 
+    background-color: #2b022d; 
     color: white;
     padding: 15px 20px;
     border: none;
@@ -72,9 +81,30 @@ button {
     margin-top: 20px;
     align-self: flex-end; 
     padding-right: 100px;
-    margin-left: 80%;
+    margin-top: 10px;
 }
 
 button:hover {
-    background-color: #5e3b6d; 
+    background-color: #e5d8f2; 
+}
+
+/* Footer styles */
+#footer {
+    background-color: #2b022d;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#footer p {
+    margin: 0;
+}
+
+#footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    text-decoration: underline;
 }

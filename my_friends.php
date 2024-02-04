@@ -63,7 +63,7 @@ $friends = $stmtFriends->fetchAll(PDO::FETCH_ASSOC);
             <li><a href="home_user.php">Main Dashboard</a></li>
             <li><a href="all_users.php">All Users</a></li>
             <li><a href="my_friends.php">My Friends</a></li>
-            <li><a href="blog.php">Blog</a></li>
+            <li><a href="blog.html">Blog</a></li>
             <li><a href="login.html">Logout</a></li>
         </ul>
     </nav>

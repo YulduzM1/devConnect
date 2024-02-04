@@ -5,11 +5,9 @@ body {
     background-color: #f8f8f8;
 }
 
+/* Header styles */
 header {
     background-color: #2b022d;
-    font-family: 'Tahoma', sans-serif;
-    color: #ffff;
-    text-align: center;
     padding: 20px 0;
 }
 
@@ -19,13 +17,11 @@ header {
 }
 
 .nav-links li {
-    list-style: none;
-    padding:0;
+    display: inline-block;
+    margin-left: 20px;
 }
 
 .nav-links li a {
-    display: inline-block;
-    margin-left: 10px;
     text-decoration: none;
     color: #fff;
     font-weight: bold;
