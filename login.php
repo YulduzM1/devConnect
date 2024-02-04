@@ -19,7 +19,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Verify password
         if ($user && $password === $user['password']) {
             // using first_name for redirection
-            header("Location: home_user.html?firstname=" . urlencode($user['first_name']));
+            header("Location: home_user.php?email=" . urlencode($user['email']));
             exit();
         } else {
             echo "Invalid email or password.";
