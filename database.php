@@ -18,7 +18,6 @@ try {
 
     // Optional: Set character encoding to UTF-8
     $pdo->exec("SET NAMES 'utf8'");
-    echo "Connection successful.";
 } catch (PDOException $e) {
     // Display error message if connection fails
     die("Connection failed: " . $e->getMessage());
