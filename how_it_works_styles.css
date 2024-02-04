@@ -41,6 +41,14 @@ section p {
     margin-top: 10px; /* Add this for spacing between h2 and p */
 }
 
+section .text-box {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5-x;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) ;
+}
+
 footer {
     text-align: center;
     padding: 20px 0;
