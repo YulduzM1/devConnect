@@ -6,12 +6,35 @@ body {
 }
 
 header {
-    background-color: #7c4fd0;
+    background-color: #2b022d;
     font-family: 'Tahoma', sans-serif;
     color: #ffff;
     text-align: center;
     padding: 20px 0;
 }
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-links li {
+    list-style: none;
+    padding:0;
+}
+
+.nav-links li a {
+    display: inline-block;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.nav-links li a:hover {
+    text-decoration: underline;
+}
+
 
 h1 {
     margin: 0;

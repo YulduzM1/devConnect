@@ -7,13 +7,15 @@
     <link rel="stylesheet" type="text/css" href="/home_user.css">
 </head>
 <body>
+    
 <header>
     <nav>
         <ul class="nav-links">
-            <li><a href="all_users.php">All_users</a></li>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#how-it-works">How It Works</a></li>
-            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="all_users.html">Users</a></li>
+            <li><a href="all_projects.html">Projects</a></li>
+            <li><a href="devSpecial.html">DevSpecial</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="login.html">LogOut</a></li>
         </ul>
     </nav>
 </header>
