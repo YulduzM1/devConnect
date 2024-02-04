@@ -1,6 +1,9 @@
 <?php
 include 'database.php';
 
+// Start session
+session_start();
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $_POST['email'];
     $password = $_POST['password'];
@@ -18,8 +21,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // Verify password
         if ($user && $password === $user['password']) {
-            // using first_name for redirection
-            header("Location: home_user.php?email=" . urlencode($user['email']));
+            // Store user information in session
+            $_SESSION['user'] = $user;
+            // Redirect to home_user.php
+            header("Location: home_user.php");
             exit();
         } else {
             echo "Invalid email or password.";
