@@ -54,21 +54,20 @@ $friends = $stmtFriends->fetchAll(PDO::FETCH_ASSOC);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Friends</title>
-    <link rel="stylesheet" type="text/css" href="/friends.css">
+    <link rel="stylesheet" type="text/css" href="/my_friends.css">
 </head>
 <body>
 <header>
     <nav>
         <ul class="nav-links">
+            <li><a href="home_user.php">Main Dashboard</a></li>
             <li><a href="all_users.php">All Users</a></li>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#how-it-works">How It Works</a></li>
-            <li><a href="#contact">Contact Us</a></li>
-            <li><a href="friends.php">My Friends</a></li>
+            <li><a href="my_friends.php">My Friends</a></li>
+            <li><a href="blog.php">Blog</a></li>
+            <li><a href="login.html">Logout</a></li>
         </ul>
     </nav>
 </header>
-
 <div class="container">
     <div class="pending-requests">
         <h2>Pending Friend Requests</h2>

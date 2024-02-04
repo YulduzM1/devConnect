@@ -10,11 +10,11 @@
 <header>
     <nav>
         <ul class="nav-links">
-            <li><a href="all_users.html">Users</a></li>
-            <li><a href="all_projects.html">Projects</a></li>
-            <li><a href="devSpecial.html">DevSpecial</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="login.html">LogOut</a></li>
+            <li><a href="home_user.php">Main Dashboard</a></li>
+            <li><a href="all_users.php">All Users</a></li>
+            <li><a href="my_friends.php">My Friends</a></li>
+            <li><a href="blog.php">Blog</a></li>
+            <li><a href="login.html">Logout</a></li>
         </ul>
     </nav>
 </header>

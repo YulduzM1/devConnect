@@ -26,11 +26,11 @@ $stmt = $pdo->query($sql); // Execute the query
 <header>
     <nav>
         <ul class="nav-links">
+            <li><a href="home_user.php">Main Dashboard</a></li>
             <li><a href="all_users.php">All Users</a></li>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#how-it-works">How It Works</a></li>
-            <li><a href="#contact">Contact Us</a></li>
-            <li><a href="my_friends.php">Friends</a></li>
+            <li><a href="my_friends.php">My Friends</a></li>
+            <li><a href="blog.php">Blog</a></li>
+            <li><a href="login.html">Logout</a></li>
         </ul>
     </nav>
 </header>
