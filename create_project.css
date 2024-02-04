@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #2b022d;
+    padding: 20px 0;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.nav-links li a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.user-info {
+    width: 30%;
+    padding-right: 20px;
+}
+
+.project-form {
+    width: 70%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.project-form h2 {
+    color: #333;
+}
+
+.project-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.project-form input[type="text"],
+.project-form input[type="date"],
+.project-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.project-form input[type="submit"] {
+    background-color: #45274a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.project-form input[type="submit"]:hover {
+    background-color: #5e3b6d;
+}
+
+.project-form input[type="submit"]:focus {
+    outline: none;
+}
